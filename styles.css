@@ -1,1 +1,63 @@
 /* Styles for the Advanced Markup assignment. */
+
+nav ul li {
+	display: inline;
+}
+
+.content {
+	list-style-type: none;
+	background-color: pink;
+}
+
+a.active {
+	font-weight: bold;
+}
+
+#sidebar {
+	width: 300px;
+	float: right;	
+	background-color: grey; 
+	margin: 15px;
+	padding: 10px;
+}
+
+.poem{
+	list-style-type: none;
+	background-color: pink; 
+	font-family: monospace;
+}
+
+sup { 
+    vertical-align: super;
+    font-size: smaller;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+img {
+	float: left;
+	margin: 10px 10px 10px 10px;
+}
+
+aside#sidebar{
+    text-decoration: none;
+}
+
+aside#sidebar dt {
+	font-weight: bold;
+}
+
+.caption {
+	font-size: 10px;
+	color: green;
+}
+
+#content {
+	font-weight: bold;
+}
+
+#selected_works {
+	
+}
